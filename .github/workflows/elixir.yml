@@ -28,7 +28,7 @@ jobs:
         # Repository name to push. Default or empty value represents current github repository (${GITHUB_REPOSITORY})
         # repository: # optional, default is 
         # Destination branch to push changes
-        branch: ${GITHUB_REF##*/}
+        # branch: ${GITHUB_REF##*/}
         # optional, default is master
         # Determines if force push is used
         # force: # optional
