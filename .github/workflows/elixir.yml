@@ -30,4 +30,5 @@ jobs:
         push-branch: 'docs'
         commit-message: 'publish docs'
         force-add: 'false'
+        rebase: 'true'
         files: docs/
