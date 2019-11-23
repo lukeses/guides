@@ -17,5 +17,9 @@ jobs:
         mix local.rebar --force
         mix local.hex --force
         mix deps.get
-    - name: Run Tests
-      run: mix docs -o docs
+    - name: Run generate docs
+      run: |
+        mix docs -o docs
+        git add .
+        git commit -m 'build'
+        git push
